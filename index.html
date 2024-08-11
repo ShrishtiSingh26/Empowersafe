@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmpowerSafe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('2.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        header {
+            background-color: #CC313D;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+	    position: relative;
+            overflow: hidden;
+        }
+        nav {
+            background-color: #F7C5CC;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color:#101820;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section-title {
+            margin-top: 0;
+            color: #ff4081;
+        }
+        .resources {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .resources div {
+            flex: 1 1 45%;
+            margin: 10px;
+            padding: 15px;
+            background-color:#ffccff;
+            text-align: center;
+        }
+        footer {
+            background-color: #CC313D;
+            color: #fff;
+            text-align: center;
+            padding: 1px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+	.marquee {
+            position: absolute;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .marquee div {
+            display: inline-block;
+            padding-left: 100%;
+            animation: marquee 35s linear infinite;
+        }
+        @keyframes marquee {
+            0%   { transform: translate(0, 0); }
+            100% { transform: translate(-100%, 0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Empower Safe</h1>
+	<div class="marquee">
+            <div>"We need women at all levels, including the top, to change the dynamic, reshape the conversation, to make sure women's voices are heard and heeded, not overlooked and ignored."-Sheryl Sandberg "Life is not easy for any of us. But what of that? We must have perseverance and above all confidence in ourselves. We must believe that we are gifted for something and that this thing must be attained."-Marie Curie
+
+</div>
+        </div>
+    </header>
+    <nav>
+        <a href="#tips">Safety Tips</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="tips">
+        <h2 class="section-title">Safety Tips</h2>
+        <ul>
+            <li>Always be aware of your surroundings.</li>
+            <li>Trust your instincts and avoid situations that feel unsafe.</li>
+            <li>Keep your phone charged and have emergency contacts easily accessible.</li>
+            <li>Learn self-defense techniques.</li>
+            <li>Use safety apps to stay connected with friends and family.</li>
+        </ul>
+    </div>
+    <div class="container" id="resources">
+        <h2 class="section-title">Resources</h2>
+        <div class="resources">
+            <div>
+                <h3>Helplines</h3>
+                <p>National Commission for Women Helpline <a href="tel:7827170170">7827170170</a></p>
+                <p>Shakti Shalini <a href="tel:10920">10920</a></p>
+		<p>Central Social Welfare Board -Police Helpline <a href="tel:1091/ 1291, (011) 23317004">1091/ 1291,(011) 23317004</a></p>
+            </div>
+            <div>
+                <h3>Support Groups</h3>
+                <p><a href="https://inbreakthrough.org/" target="_blank">Inbreakthrough.org</a></p>
+                <p><a href=" https://www.jagori.org/" target="_blank">Jagori.org</a></p>
+
+            </div>
+            <div>
+                <h3>Useful Apps and Websites</h3>
+                
+                <p><a href="https://sayfty.com/" target="_blank">Sayfty</a></p>
+                <p><a href="https://www.shethepeople.tv/" target="_blank">She The People TV</a></p>
+		<p><a href="https://vidhilegalpolicy.in/" target="_blank">Vidhi Centre for Legal Policy </a></p>
+		<p><a href="https://www.safetipin.com/" target="_blank">Safetipin </a></p>
+
+            </div>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <p>If you have any questions or need support, please reach out to us at:</p>
+        <p>Email: <a href="mailto:support@womensafety.com">support@womensafety.com</a></p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Women Safety Initiative</p>
+    </footer>
+</body>
+</html>
