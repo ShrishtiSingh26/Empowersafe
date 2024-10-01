@@ -33,6 +33,12 @@ The site is responsive and designed with a clean, user-friendly interface to ens
 2. Place the `bg.jpg` image file in the root directory of your project (if not already there).
 3. Open the `index.html` file in any web browser to view the website.
 
+
+### Website Link
+
+https://shrishtisingh26.github.io/Empowersafe/
+
+
 ### Project Structure
 ```bash
 empower-safe/
